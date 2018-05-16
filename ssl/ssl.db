@@ -1,0 +1,45 @@
+--- 
+files: 
+  certificate: 
+    housematch_web_engr_illinois_edu_e407f_aa2d5_1551891631_31e2e6a342faddf67e94a9b8f21f2113: 
+      created: '1520355631'
+      domains: 
+        - housematch.web.engr.illinois.edu
+        - mail.housematch.web.engr.illinois.edu
+        - www.housematch.web.engr.illinois.edu
+      friendly_name: Cert for “housematch.web.engr.illinois.edu”
+      id: housematch_web_engr_illinois_edu_e407f_aa2d5_1551891631_31e2e6a342faddf67e94a9b8f21f2113
+      is_self_signed: 1
+      issuer.commonName: housematch.web.engr.illinois.edu
+      issuer.organizationName: ~
+      modulus: e407f936d5317bc38ba54153d42126d9e4b81ca3965ef837d7bc630a0e63dc8e00553723329fbf08adecb92edf0207d672a4366abbde21273cd505be32deeaa87d764c56003be3f30eeb783e09eb4990622cbb4a2f76150d9fdbe61a56156ddd59426794ba81f4de24a814fe50570172a1ef4f248b101f6aae734e681a9aad350aac5b9cf065f95d257001f0de7b99a227f7ef6f8e21d34bdbcb6b3359183186a5d8118b37089ded2315d13e31ca6ac662d5e036075ffa4d0cbbe22e69eb9852a64bd472926e74a6673175e63ba4683a047fc8f9ceac4bec09495dbb71daa49c3f7e1a93d1d32772f3633cd37b70d8369a07996cd7b1bf5373f45ab8e6faa2d5
+      modulus_length: 2048
+      not_after: '1551891631'
+      not_before: '1520355631'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: housematch.web.engr.illinois.edu
+      validation_type: ~
+  key: 
+    e407f_aa2d5_ba9f63b23d1c24a4610a24c0ab1f1fc6: 
+      created: '1520355631'
+      friendly_name: Key for “housematch.web.engr.illinois.edu”
+      id: e407f_aa2d5_ba9f63b23d1c24a4610a24c0ab1f1fc6
+      modulus: e407f936d5317bc38ba54153d42126d9e4b81ca3965ef837d7bc630a0e63dc8e00553723329fbf08adecb92edf0207d672a4366abbde21273cd505be32deeaa87d764c56003be3f30eeb783e09eb4990622cbb4a2f76150d9fdbe61a56156ddd59426794ba81f4de24a814fe50570172a1ef4f248b101f6aae734e681a9aad350aac5b9cf065f95d257001f0de7b99a227f7ef6f8e21d34bdbcb6b3359183186a5d8118b37089ded2315d13e31ca6ac662d5e036075ffa4d0cbbe22e69eb9852a64bd472926e74a6673175e63ba4683a047fc8f9ceac4bec09495dbb71daa49c3f7e1a93d1d32772f3633cd37b70d8369a07996cd7b1bf5373f45ab8e6faa2d5
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      e407f936d5317bc38ba54153d42126d9e4b81ca3965ef837d7bc630a0e63dc8e00553723329fbf08adecb92edf0207d672a4366abbde21273cd505be32deeaa87d764c56003be3f30eeb783e09eb4990622cbb4a2f76150d9fdbe61a56156ddd59426794ba81f4de24a814fe50570172a1ef4f248b101f6aae734e681a9aad350aac5b9cf065f95d257001f0de7b99a227f7ef6f8e21d34bdbcb6b3359183186a5d8118b37089ded2315d13e31ca6ac662d5e036075ffa4d0cbbe22e69eb9852a64bd472926e74a6673175e63ba4683a047fc8f9ceac4bec09495dbb71daa49c3f7e1a93d1d32772f3633cd37b70d8369a07996cd7b1bf5373f45ab8e6faa2d5: 
+        housematch_web_engr_illinois_edu_e407f_aa2d5_1551891631_31e2e6a342faddf67e94a9b8f21f2113: ~
+    subject.commonName: 
+      housematch.web.engr.illinois.edu: 
+        housematch_web_engr_illinois_edu_e407f_aa2d5_1551891631_31e2e6a342faddf67e94a9b8f21f2113: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “housematch.web.engr.illinois.edu”: housematch_web_engr_illinois_edu_e407f_aa2d5_1551891631_31e2e6a342faddf67e94a9b8f21f2113
+  key: 
+    friendly_name: 
+      Key for “housematch.web.engr.illinois.edu”: e407f_aa2d5_ba9f63b23d1c24a4610a24c0ab1f1fc6
+    modulus: 
+      e407f936d5317bc38ba54153d42126d9e4b81ca3965ef837d7bc630a0e63dc8e00553723329fbf08adecb92edf0207d672a4366abbde21273cd505be32deeaa87d764c56003be3f30eeb783e09eb4990622cbb4a2f76150d9fdbe61a56156ddd59426794ba81f4de24a814fe50570172a1ef4f248b101f6aae734e681a9aad350aac5b9cf065f95d257001f0de7b99a227f7ef6f8e21d34bdbcb6b3359183186a5d8118b37089ded2315d13e31ca6ac662d5e036075ffa4d0cbbe22e69eb9852a64bd472926e74a6673175e63ba4683a047fc8f9ceac4bec09495dbb71daa49c3f7e1a93d1d32772f3633cd37b70d8369a07996cd7b1bf5373f45ab8e6faa2d5: e407f_aa2d5_ba9f63b23d1c24a4610a24c0ab1f1fc6

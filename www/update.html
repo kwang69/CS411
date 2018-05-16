@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header><section class="main-container">
+	<div class="main-wrapper">
+	    
+<label style="font-size: 40px;"> Modify </label>
+<br />
+
+<form action ="update.php" method="GET">
+    
+  <p><font size="4" color=#E74C3C> ID </font>
+  <input type="text" name="ID"><br>
+  
+<label style="font-size: 30px;"><font color="darkorange"> Sublessee </font></label>
+    <br />
+  <input type="radio" name="type" value="Price_range"> Price_Range
+    <input type="text" name="Price_range"><br>
+  <input type="radio" name="type" value="Location"> Location
+    <input type="text" name="Location" ><br>
+  <input type="radio" name="type" value="Floor_plan"> Floor_plan
+    <input type="text" name="Floor_plan" ><br>
+  <input type="radio" name="type" value="Facilities"> Facilities
+    <input type="text" name="Facilities"><br>
+  <input type="radio" name="type" value="Address"> Address
+    <input type="text" name="Address"><br>
+  <input type="radio" name="type" value="prefered_distance"> prefered_distance
+    <input type="text" name="prefered_distance"><br>
+  <p> Start End
+    <input type="text" name="Start_end" value="2018-2019"><br>
+  <input type="radio" name="type" value="Number_of_units_want"> Number_of_units
+    <input type="text" name="Number_of_units_want" ><br>
+  <input type="radio" name="type" value="Additional_info"> Additional_info
+    <input type="text" name="Additional_info" ><br> </p>
+
+<br />
+<br />
+
+<label style="font-size: 30px;"><font color="dodgerblue"> Sublessor </font></label>
+
+<br />
+<input type="radio" name="type" value="Price_range1"> Price_Range
+<input type="text" name="Price_range1"><br>
+<input type="radio" name="type" value="Roomates_info1"> Roomates_info
+  <input type="text" name="Roomates_info1"><br>
+<input type="radio" name="type" value="Location1"> Location
+  <input type="text" name="Location1" ><br>
+<input type="radio" name="type" value="Floor_plan1"> Floor_plan
+  <input type="text" name="Floor_plan1" ><br>
+<input type="radio" name="type" value="Facilities1"> Facilities
+  <input type="text" name="Facilities1"><br>
+<input type="radio" name="type" value="Address1"> Address
+  <input type="text" name="Address1"><br>
+<input type="radio" name="type" value="Distance_to_downtown"> Distance_to_downtown
+  <input type="text" name="Distance_to_downtown"><br>
+<p> Start End
+  <input type="text" name="Start_end1" value="2018-2019"><br>
+<input type="radio" name="type" value="Number_of_units1"> Number_of_units
+  <input type="text" name="Number_of_units1" ><br>
+<input type="radio" name="type" value="Additional_info1"> Additional_info
+  <input type="text" name="Additional_info1" ><br>
+<button type="submit" name="submit"> Submit </button>
+
+</form>
+
+<br />
+<br />
+
+<label style="font-size: 40px;"> Delete </label>
+<br />
+<p> <font color="blue">Please enter your ID</font></p>
+<form action ="delete.php" method="GET">
+<p><input type="text" name="ID1"><br></p>
+<button type="submit" name="submit"> Delete </button>
+</form>
+
+	</div>
+</section>
+</header>
+</body>
+</html>
